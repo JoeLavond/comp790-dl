@@ -1,0 +1,70 @@
+[2022/01/31 20:02:48] - Sequential(
+  (0): Dropout(p=0.5, inplace=False)
+  (1): Linear(in_features=332, out_features=50, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0.5, inplace=False)
+  (4): Linear(in_features=50, out_features=1, bias=True)
+)
+[2022/01/31 20:04:32] - Epoch: 191, Avg Train Loss: 0.9849, Min Avg Val Loss: 0.0416 
+
+[2022/01/31 20:06:54] - Sequential(
+  (0): Dropout(p=0.5, inplace=False)
+  (1): Linear(in_features=332, out_features=50, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0.5, inplace=False)
+  (4): Linear(in_features=50, out_features=1, bias=True)
+)
+[2022/01/31 20:10:10] - Epoch: 378, Avg Train Loss: 0.1002, Min Avg Val Loss: 0.0292 
+
+[2022/01/31 20:11:50] - Sequential(
+  (0): Dropout(p=0.5, inplace=False)
+  (1): Linear(in_features=332, out_features=50, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0.5, inplace=False)
+  (4): Linear(in_features=50, out_features=1, bias=True)
+)
+[2022/01/31 20:17:05] - Epoch: 421, Avg Train Loss: 0.0596, Min Avg Val Loss: 0.0291 
+
+[2022/01/31 20:18:04] - Sequential(
+  (0): Dropout(p=0.25, inplace=False)
+  (1): Linear(in_features=332, out_features=50, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0.25, inplace=False)
+  (4): Linear(in_features=50, out_features=1, bias=True)
+)
+[2022/01/31 20:20:46] - Epoch: 294, Avg Train Loss: 0.3606, Min Avg Val Loss: 0.0256 
+
+[2022/01/31 20:21:56] - Sequential(
+  (0): Dropout(p=0, inplace=False)
+  (1): Linear(in_features=332, out_features=50, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0, inplace=False)
+  (4): Linear(in_features=50, out_features=1, bias=True)
+)
+[2022/01/31 20:22:29] - Sequential(
+  (0): Dropout(p=0.1, inplace=False)
+  (1): Linear(in_features=332, out_features=100, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0.1, inplace=False)
+  (4): Linear(in_features=100, out_features=1, bias=True)
+)
+[2022/01/31 20:25:06] - Epoch: 257, Avg Train Loss: 0.1454, Min Avg Val Loss: 0.0222 
+
+[2022/01/31 22:28:03] - Sequential(
+  (0): Dropout(p=0, inplace=False)
+  (1): Linear(in_features=332, out_features=100, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0, inplace=False)
+  (4): Linear(in_features=100, out_features=1, bias=True)
+)
+[2022/01/31 22:29:45] - Epoch: 81, Avg Train Loss: 0.0103, Min Avg Val Loss: 0.0216 
+
+[2022/01/31 22:31:11] - Sequential(
+  (0): Dropout(p=0, inplace=False)
+  (1): Linear(in_features=332, out_features=100, bias=True)
+  (2): Sigmoid()
+  (3): Dropout(p=0, inplace=False)
+  (4): Linear(in_features=100, out_features=1, bias=True)
+)
+[2022/01/31 22:32:56] - Epoch: 80, Avg Train Loss: 0.0104, Min Avg Val Loss: 0.0210 
+
